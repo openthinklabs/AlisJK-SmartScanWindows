@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0BA33540-7741-4764-8A4D-9853E78C96C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Saraff.Tiff</RootNamespace>
+    <AssemblyName>Saraff.Tiff</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>sign.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Automaton\AutomatonBase.cs" />
+    <Compile Include="Automaton\Reader\HeaderState.cs" />
+    <Compile Include="Automaton\Reader\ImageFileDirectoryState.cs" />
+    <Compile Include="Automaton\Reader\IReaderAutomaton.cs" />
+    <Compile Include="Automaton\Reader\ReaderAutomatonContext.cs" />
+    <Compile Include="Automaton\Reader\ReaderStateBase.cs" />
+    <Compile Include="Automaton\Reader\TagState.cs" />
+    <Compile Include="Automaton\Reader\ValueState.cs" />
+    <Compile Include="Automaton\StateBase.cs" />
+    <Compile Include="Core\Helper.cs" />
+    <Compile Include="Core\TiffTagAttribute.cs" />
+    <Compile Include="Core\TiffHandleAttribute.cs" />
+    <Compile Include="Core\_TiffReaderCore.cs" />
+    <Compile Include="Core\_TiffWriterCore.cs" />
+    <Compile Include="ITag.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Core\TiffDefs.cs" />
+    <Compile Include="Tag.cs" />
+    <Compile Include="TiffHandle.cs" />
+    <Compile Include="TiffReader.cs" />
+    <Compile Include="TiffWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="COPYING.LESSER.txt" />
+    <Content Include="COPYING.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sign.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
