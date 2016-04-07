@@ -591,13 +591,13 @@ namespace com.openthinklabs.alisjk.SmartScan {
 									}
 									
 									if((this._twain32.IsCapSupported(TwCap.Rotation)&TwQC.Set)!=0) {
-									   this._twain32.SetCap(TwCap.Rotation, 0f);
+									   this._twain32.SetCap(TwCap.Rotation, 0f); //jika di set selain 0, error
 									}
                                     if ((this._twain32.IsCapSupported(TwCap.FlipRotation) & TwQC.Set) != 0)
                                     {
                                         this._twain32.SetCap(TwCap.FlipRotation, false);
-                                    }									
-							  }
+                                    }
+                                }
 						   }
 						}
 						
@@ -618,10 +618,9 @@ namespace com.openthinklabs.alisjk.SmartScan {
 						if((this._twain32.IsCapSupported(TwCap.AutoDiscardBlankPages)&TwQC.Set)!=0) {
 						    this._twain32.SetCap(TwCap.AutoDiscardBlankPages,TwBP.Auto);	
 						}
-						
-						#endregion
+                        #endregion
 
-						this._twain32.Acquire();
+                        this._twain32.Acquire();
 					} catch(Exception ex) {
 						MessageBox.Show(ex.Message,ex.GetType().Name,MessageBoxButtons.OK,MessageBoxIcon.Error);
 					}
