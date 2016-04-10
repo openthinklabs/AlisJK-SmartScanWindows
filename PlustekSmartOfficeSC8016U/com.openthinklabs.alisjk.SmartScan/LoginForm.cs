@@ -39,7 +39,7 @@ namespace com.openthinklabs.alisjk.SmartScan
 		{
 			try
 			{
-			    string myConnection = "datasource=192.168.1.3;port=3306;username=alisjk;password=rahasia";
+			    string myConnection = "datasource=192.168.1.3;port=3306;username=ppmb;password=np2025";
 			    MySqlConnection myConn = new MySqlConnection(myConnection);
 			 
 			    MySqlCommand SelectCommand = new MySqlCommand("SELECT username, salt, password FROM 20150412pascaganjil.sf_guard_user WHERE username='" + this.txt_username.Text +"' ;", myConn);

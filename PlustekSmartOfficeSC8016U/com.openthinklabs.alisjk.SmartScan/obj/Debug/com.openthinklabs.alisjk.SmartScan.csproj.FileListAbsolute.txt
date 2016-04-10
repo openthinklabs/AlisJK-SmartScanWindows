@@ -41,3 +41,10 @@ B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthink
 B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\obj\Debug\com.openthinklabs.alisjk.SmartScan.pdb
 B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\obj\Debug\com.openthinklabs.alisjk.SmartScan.csprojResolveAssemblyReference.cache
 B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Debug\MySql.Data.dll
+B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Debug\x86\com.openthinklabs.alisjk.SmartScan.exe.config
+B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Debug\x86\com.openthinklabs.alisjk.SmartScan.exe
+B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Debug\x86\com.openthinklabs.alisjk.SmartScan.pdb
+B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Debug\x86\Saraff.Tiff.dll
+B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Debug\x86\Saraff.Twain.dll
+B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Debug\x86\Saraff.Tiff.xml
+B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Debug\x86\Saraff.Twain.xml
