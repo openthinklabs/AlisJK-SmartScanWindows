@@ -483,35 +483,38 @@ namespace com.openthinklabs.alisjk.SmartScan {
 
 				this.pixelTypesToolStripDropDownButton.DropDownItems.Clear();
 				Twain32.Enumeration _pixelTypes=this._twain32.Capabilities.PixelType.Get();
+
 				for(int i=0; i<_pixelTypes.Count; i++) {
-                    if (_pixelTypes[i].ToString() == "RGB")
+                    if (_pixelTypes[i].ToString().Equals("RGB"))
                     {
                         this.pixelTypesToolStripDropDownButton.DropDownItems.Add(
                             _pixelTypes[i].ToString(),
                             null,
                             _PixelTypeItemSelected).Tag = _pixelTypes[i];
-                    }
+                    }               
 				}
-				this._PixelTypeItemSelected(this.pixelTypesToolStripDropDownButton.DropDownItems[_pixelTypes.CurrentIndex],new EventArgs());
+                //this._PixelTypeItemSelected(this.pixelTypesToolStripDropDownButton.DropDownItems[_pixelTypes.CurrentIndex],new EventArgs());
+                this._PixelTypeItemSelected(this.pixelTypesToolStripDropDownButton.DropDownItems[0], new EventArgs());
 
-				#endregion
+                #endregion
 
-				#region Isi daftar mode yang tersedia transmisi
+                #region Isi daftar mode yang tersedia transmisi
 
-				this.xferModeToolStripDropDownButton.DropDownItems.Clear();
+                this.xferModeToolStripDropDownButton.DropDownItems.Clear();
 				Twain32.Enumeration _xferMech=this._twain32.Capabilities.XferMech.Get();
 				for(int i=0; i<_xferMech.Count; i++) {
 					if(_xferMech[i].ToString() == "File"){
 						this.xferModeToolStripDropDownButton.DropDownItems.Add(
 							_xferMech[i].ToString(),
 							null,
-							this._XferMechItemSelected).Tag=_xferMech[i];						
-					}
-				}
-				
-				//fujitsu error disini
-				///this._XferMechItemSelected(this.xferModeToolStripDropDownButton.DropDownItems[_xferMech.CurrentIndex],new EventArgs());
+							this._XferMechItemSelected).Tag=_xferMech[i];
 
+                        //fujitsu error disini
+                        this._XferMechItemSelected(this.xferModeToolStripDropDownButton.DropDownItems[_xferMech.CurrentIndex], new EventArgs());
+
+                    }
+                }
+				
 				#endregion
 
 				#region Mengisi daftar format file gambar yang tersedia
