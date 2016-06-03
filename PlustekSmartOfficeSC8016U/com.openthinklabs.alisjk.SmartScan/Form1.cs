@@ -57,6 +57,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 		private static string target_folder = "" ;
 		private static string nama_batch    = "";		
 		private static string template      = "";
+        private int counter = 0; 
 
 		public SmartScan() {
 			InitializeComponent();
@@ -103,9 +104,9 @@ namespace com.openthinklabs.alisjk.SmartScan {
 			try {
 				ToolStripItem _item=sender as ToolStripItem;
 				if(_item!=null) {
-					this.pixelTypesToolStripDropDownButton.Text=_item.Text;
-					this.pixelTypesToolStripDropDownButton.Tag=_item.Tag;
-					this._twain32.Capabilities.PixelType.Set((TwPixelType)_item.Tag);
+                        this.pixelTypesToolStripDropDownButton.Text = _item.Text;
+                        this.pixelTypesToolStripDropDownButton.Tag = _item.Tag;
+                        this._twain32.Capabilities.PixelType.Set((TwPixelType)_item.Tag);
 				}
 			} catch(Exception ex) {
 				MessageBox.Show(ex.Message,ex.GetType().Name,MessageBoxButtons.OK,MessageBoxIcon.Error);
@@ -409,6 +410,8 @@ namespace com.openthinklabs.alisjk.SmartScan {
                   System.IO.Directory.CreateDirectory(SmartScan.target_folder);
                 }
 				e.FileName=string.Format(SmartScan.target_folder+"/"+LoginForm.username+"_FileXferTransfer_{0}.{1}",DateTime.Now.ToString("yyyyMMddHHmmss"),this._twain32.Capabilities.ImageFileFormat.GetCurrent().ToString().ToLower());
+                counter++;
+                this.textBox2.Text = counter.ToString();
 			} catch(Exception ex) {
 				MessageBox.Show(ex.Message,ex.GetType().Name,MessageBoxButtons.OK,MessageBoxIcon.Error);
 				Debug.WriteLine(string.Format("{0}: {1}\n{2}",ex.GetType().Name,ex.Message,ex.StackTrace));
@@ -481,10 +484,13 @@ namespace com.openthinklabs.alisjk.SmartScan {
 				this.pixelTypesToolStripDropDownButton.DropDownItems.Clear();
 				Twain32.Enumeration _pixelTypes=this._twain32.Capabilities.PixelType.Get();
 				for(int i=0; i<_pixelTypes.Count; i++) {
-					this.pixelTypesToolStripDropDownButton.DropDownItems.Add(
-						_pixelTypes[i].ToString(),
-						null,
-						_PixelTypeItemSelected).Tag=_pixelTypes[i];
+                    if (_pixelTypes[i].ToString() == "RGB")
+                    {
+                        this.pixelTypesToolStripDropDownButton.DropDownItems.Add(
+                            _pixelTypes[i].ToString(),
+                            null,
+                            _PixelTypeItemSelected).Tag = _pixelTypes[i];
+                    }
 				}
 				this._PixelTypeItemSelected(this.pixelTypesToolStripDropDownButton.DropDownItems[_pixelTypes.CurrentIndex],new EventArgs());
 

@@ -41,7 +41,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration ("")]
 [assembly: AssemblyCompany ("OpenThink Labs")]
 [assembly: AssemblyProduct ("com.openthinklabs.alisjk.SmartScan")]
-[assembly: AssemblyCopyright ("Copyright © OpenThink Labs 2015")]
+[assembly: AssemblyCopyright("Copyright © OpenThink Labs 2016")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
 // Setting ComVisible to false makes the types in this assembly not visible 
