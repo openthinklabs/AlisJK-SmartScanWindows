@@ -53,229 +53,251 @@ namespace com.openthinklabs.alisjk.SmartScan {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-        	this.components = new System.ComponentModel.Container();
-        	System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SmartScan));
-        	this.toolStripPanel1 = new System.Windows.Forms.ToolStripPanel();
-        	this._toolStrip1 = new System.Windows.Forms.ToolStrip();
-        	this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
-        	this.toolStripFolderBrowserDialogButton = new System.Windows.Forms.ToolStripButton();
-        	this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-        	this.dataSourcesToolStripComboBox = new System.Windows.Forms.ToolStripComboBox();
-        	this.resolutionToolStripDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
-        	this.pixelTypesToolStripDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
-        	this.xferModeToolStripDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
-        	this.fileFormatToolStripDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
-        	this.pictureBox1 = new System.Windows.Forms.PictureBox();
-        	this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-        	this.printDialog1 = new System.Windows.Forms.PrintDialog();
-        	this.printDocument1 = new System.Drawing.Printing.PrintDocument();
-        	this.textBox1 = new System.Windows.Forms.TextBox();
-        	this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-        	this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-        	this._twain32 = new Saraff.Twain.Twain32(this.components);
-        	this.toolStripPanel1.SuspendLayout();
-        	this._toolStrip1.SuspendLayout();
-        	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-        	this.statusStrip1.SuspendLayout();
-        	this.SuspendLayout();
-        	// 
-        	// toolStripPanel1
-        	// 
-        	this.toolStripPanel1.Controls.Add(this._toolStrip1);
-        	this.toolStripPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-        	this.toolStripPanel1.Location = new System.Drawing.Point(0, 0);
-        	this.toolStripPanel1.Name = "toolStripPanel1";
-        	this.toolStripPanel1.Orientation = System.Windows.Forms.Orientation.Horizontal;
-        	this.toolStripPanel1.RowMargin = new System.Windows.Forms.Padding(3, 0, 0, 0);
-        	this.toolStripPanel1.Size = new System.Drawing.Size(624, 25);
-        	// 
-        	// _toolStrip1
-        	// 
-        	this._toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
-        	this._toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-        	        	        	this.newToolStripButton,
-        	        	        	this.toolStripFolderBrowserDialogButton,
-        	        	        	this.toolStripSeparator1,
-        	        	        	this.dataSourcesToolStripComboBox,
-        	        	        	this.resolutionToolStripDropDownButton,
-        	        	        	this.pixelTypesToolStripDropDownButton,
-        	        	        	this.xferModeToolStripDropDownButton,
-        	        	        	this.fileFormatToolStripDropDownButton});
-        	this._toolStrip1.Location = new System.Drawing.Point(3, 0);
-        	this._toolStrip1.Name = "_toolStrip1";
-        	this._toolStrip1.Size = new System.Drawing.Size(512, 25);
-        	this._toolStrip1.TabIndex = 0;
-        	this._toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this._toolStrip1ItemClicked);
-        	// 
-        	// newToolStripButton
-        	// 
-        	this.newToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-        	this.newToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripButton.Image")));
-        	this.newToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-        	this.newToolStripButton.Name = "newToolStripButton";
-        	this.newToolStripButton.Size = new System.Drawing.Size(23, 22);
-        	this.newToolStripButton.Text = "Mulai Scan LJK";
-        	this.newToolStripButton.Click += new System.EventHandler(this.newToolStripButton_Click);
-        	// 
-        	// toolStripFolderBrowserDialogButton
-        	// 
-        	this.toolStripFolderBrowserDialogButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-        	this.toolStripFolderBrowserDialogButton.Image = ((System.Drawing.Image)(resources.GetObject("toolStripFolderBrowserDialogButton.Image")));
-        	this.toolStripFolderBrowserDialogButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-        	this.toolStripFolderBrowserDialogButton.Name = "toolStripFolderBrowserDialogButton";
-        	this.toolStripFolderBrowserDialogButton.Size = new System.Drawing.Size(23, 22);
-        	this.toolStripFolderBrowserDialogButton.Text = "Pilih Folder Lokasi Menyimpan Hasil Scan";
-        	this.toolStripFolderBrowserDialogButton.Click += new System.EventHandler(this.toolStripFolderBrowserDialogButtonClick);
-        	// 
-        	// toolStripSeparator1
-        	// 
-        	this.toolStripSeparator1.Name = "toolStripSeparator1";
-        	this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-        	// 
-        	// dataSourcesToolStripComboBox
-        	// 
-        	this.dataSourcesToolStripComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-        	this.dataSourcesToolStripComboBox.Name = "dataSourcesToolStripComboBox";
-        	this.dataSourcesToolStripComboBox.Size = new System.Drawing.Size(200, 25);
-        	this.dataSourcesToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.dataSourcesToolStripComboBox_SelectedIndexChanged);
-        	// 
-        	// resolutionToolStripDropDownButton
-        	// 
-        	this.resolutionToolStripDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-        	this.resolutionToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("resolutionToolStripDropDownButton.Image")));
-        	this.resolutionToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-        	this.resolutionToolStripDropDownButton.Name = "resolutionToolStripDropDownButton";
-        	this.resolutionToolStripDropDownButton.Size = new System.Drawing.Size(55, 22);
-        	this.resolutionToolStripDropDownButton.Tag = "";
-        	this.resolutionToolStripDropDownButton.Text = "xxx dpi";
-        	// 
-        	// pixelTypesToolStripDropDownButton
-        	// 
-        	this.pixelTypesToolStripDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-        	this.pixelTypesToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("pixelTypesToolStripDropDownButton.Image")));
-        	this.pixelTypesToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-        	this.pixelTypesToolStripDropDownButton.Name = "pixelTypesToolStripDropDownButton";
-        	this.pixelTypesToolStripDropDownButton.Size = new System.Drawing.Size(40, 22);
-        	this.pixelTypesToolStripDropDownButton.Text = "RGB";
-        	// 
-        	// xferModeToolStripDropDownButton
-        	// 
-        	this.xferModeToolStripDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-        	this.xferModeToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("xferModeToolStripDropDownButton.Image")));
-        	this.xferModeToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-        	this.xferModeToolStripDropDownButton.Name = "xferModeToolStripDropDownButton";
-        	this.xferModeToolStripDropDownButton.Size = new System.Drawing.Size(66, 22);
-        	this.xferModeToolStripDropDownButton.Text = "XferMode";
-        	this.xferModeToolStripDropDownButton.Click += new System.EventHandler(this.XferModeToolStripDropDownButtonClick);
-        	// 
-        	// fileFormatToolStripDropDownButton
-        	// 
-        	this.fileFormatToolStripDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-        	this.fileFormatToolStripDropDownButton.Enabled = false;
-        	this.fileFormatToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("fileFormatToolStripDropDownButton.Image")));
-        	this.fileFormatToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-        	this.fileFormatToolStripDropDownButton.Name = "fileFormatToolStripDropDownButton";
-        	this.fileFormatToolStripDropDownButton.Size = new System.Drawing.Size(54, 22);
-        	this.fileFormatToolStripDropDownButton.Text = "Format";
-        	// 
-        	// pictureBox1
-        	// 
-        	this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-        	        	        	| System.Windows.Forms.AnchorStyles.Left) 
-        	        	        	| System.Windows.Forms.AnchorStyles.Right)));
-        	this.pictureBox1.Location = new System.Drawing.Point(0, 25);
-        	this.pictureBox1.Name = "pictureBox1";
-        	this.pictureBox1.Size = new System.Drawing.Size(624, 294);
-        	this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-        	this.pictureBox1.TabIndex = 1;
-        	this.pictureBox1.TabStop = false;
-        	// 
-        	// saveFileDialog1
-        	// 
-        	this.saveFileDialog1.DefaultExt = "bmp";
-        	this.saveFileDialog1.Filter = "Gambar|*.bmp";
-        	this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.SaveFileDialog1FileOk);
-        	// 
-        	// printDialog1
-        	// 
-        	this.printDialog1.Document = this.printDocument1;
-        	this.printDialog1.UseEXDialog = true;
-        	// 
-        	// printDocument1
-        	// 
-        	this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
-        	// 
-        	// textBox1
-        	// 
-        	this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-        	        	        	| System.Windows.Forms.AnchorStyles.Right)));
-        	this.textBox1.BackColor = System.Drawing.Color.Black;
-        	this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-        	this.textBox1.ForeColor = System.Drawing.Color.Lime;
-        	this.textBox1.Location = new System.Drawing.Point(0, 325);
-        	this.textBox1.Multiline = true;
-        	this.textBox1.Name = "textBox1";
-        	this.textBox1.ReadOnly = true;
-        	this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-        	this.textBox1.Size = new System.Drawing.Size(624, 92);
-        	this.textBox1.TabIndex = 3;
-        	this.textBox1.WordWrap = false;
-        	// 
-        	// statusStrip1
-        	// 
-        	this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-        	        	        	this.toolStripStatusLabel1});
-        	this.statusStrip1.Location = new System.Drawing.Point(0, 420);
-        	this.statusStrip1.Name = "statusStrip1";
-        	this.statusStrip1.Size = new System.Drawing.Size(624, 22);
-        	this.statusStrip1.TabIndex = 4;
-        	this.statusStrip1.Text = "statusStrip1";
-        	// 
-        	// toolStripStatusLabel1
-        	// 
-        	this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-        	this.toolStripStatusLabel1.Size = new System.Drawing.Size(109, 17);
-        	this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
-        	this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-        	// 
-        	// _twain32
-        	// 
-        	this._twain32.AppProductName = "Saraff.Twain";
-        	this._twain32.IsTwain2Enable = true;
-        	this._twain32.Parent = this;
-        	this._twain32.ShowUI = false;
-        	this._twain32.AcquireCompleted += new System.EventHandler(this._twain32_AcquireCompleted);
-        	this._twain32.AcquireError += new System.EventHandler<Saraff.Twain.Twain32.AcquireErrorEventArgs>(this._twain32_AcquireError);
-        	this._twain32.EndXfer += new System.EventHandler<Saraff.Twain.Twain32.EndXferEventArgs>(this._twain32_EndXfer);
-        	this._twain32.XferDone += new System.EventHandler<Saraff.Twain.Twain32.XferDoneEventArgs>(this._twain32_XferDone);
-        	this._twain32.SetupMemXferEvent += new System.EventHandler<Saraff.Twain.Twain32.SetupMemXferEventArgs>(this._twain32_SetupMemXferEvent);
-        	this._twain32.MemXferEvent += new System.EventHandler<Saraff.Twain.Twain32.MemXferEventArgs>(this._twain32_MemXferEvent);
-        	this._twain32.SetupFileXferEvent += new System.EventHandler<Saraff.Twain.Twain32.SetupFileXferEventArgs>(this._twain32_SetupFileXferEvent);
-        	this._twain32.FileXferEvent += new System.EventHandler<Saraff.Twain.Twain32.FileXferEventArgs>(this._twain32_FileXferEvent);
-        	this._twain32.DeviceEvent += new System.EventHandler<Saraff.Twain.Twain32.DeviceEventEventArgs>(this._twain32_DeviceEvent);
-        	// 
-        	// SmartScan
-        	// 
-        	this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-        	this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        	this.ClientSize = new System.Drawing.Size(624, 442);
-        	this.Controls.Add(this.statusStrip1);
-        	this.Controls.Add(this.textBox1);
-        	this.Controls.Add(this.pictureBox1);
-        	this.Controls.Add(this.toolStripPanel1);
-        	this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-        	this.Name = "SmartScan";
-        	this.Text = "AlisJK : SmartScan";
-        	this.Load += new System.EventHandler(this.Form1Load);
-        	this.toolStripPanel1.ResumeLayout(false);
-        	this.toolStripPanel1.PerformLayout();
-        	this._toolStrip1.ResumeLayout(false);
-        	this._toolStrip1.PerformLayout();
-        	((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-        	this.statusStrip1.ResumeLayout(false);
-        	this.statusStrip1.PerformLayout();
-        	this.ResumeLayout(false);
-        	this.PerformLayout();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SmartScan));
+            this.toolStripPanel1 = new System.Windows.Forms.ToolStripPanel();
+            this._toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripFolderBrowserDialogButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.dataSourcesToolStripComboBox = new System.Windows.Forms.ToolStripComboBox();
+            this.resolutionToolStripDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
+            this.pixelTypesToolStripDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
+            this.xferModeToolStripDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
+            this.fileFormatToolStripDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this._twain32 = new Saraff.Twain.Twain32(this.components);
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.toolStripPanel1.SuspendLayout();
+            this._toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.statusStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // toolStripPanel1
+            // 
+            this.toolStripPanel1.Controls.Add(this._toolStrip1);
+            this.toolStripPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.toolStripPanel1.Location = new System.Drawing.Point(0, 0);
+            this.toolStripPanel1.Name = "toolStripPanel1";
+            this.toolStripPanel1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            this.toolStripPanel1.RowMargin = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.toolStripPanel1.Size = new System.Drawing.Size(1364, 49);
+            // 
+            // _toolStrip1
+            // 
+            this._toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this._toolStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
+            this._toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newToolStripButton,
+            this.toolStripFolderBrowserDialogButton,
+            this.toolStripSeparator1,
+            this.dataSourcesToolStripComboBox,
+            this.resolutionToolStripDropDownButton,
+            this.pixelTypesToolStripDropDownButton,
+            this.xferModeToolStripDropDownButton,
+            this.fileFormatToolStripDropDownButton});
+            this._toolStrip1.Location = new System.Drawing.Point(3, 0);
+            this._toolStrip1.Name = "_toolStrip1";
+            this._toolStrip1.Size = new System.Drawing.Size(859, 49);
+            this._toolStrip1.TabIndex = 0;
+            this._toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this._toolStrip1ItemClicked);
+            // 
+            // newToolStripButton
+            // 
+            this.newToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.newToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripButton.Image")));
+            this.newToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.newToolStripButton.Name = "newToolStripButton";
+            this.newToolStripButton.Size = new System.Drawing.Size(44, 46);
+            this.newToolStripButton.Text = "Mulai Scan LJK";
+            this.newToolStripButton.Click += new System.EventHandler(this.newToolStripButton_Click);
+            // 
+            // toolStripFolderBrowserDialogButton
+            // 
+            this.toolStripFolderBrowserDialogButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripFolderBrowserDialogButton.Image = ((System.Drawing.Image)(resources.GetObject("toolStripFolderBrowserDialogButton.Image")));
+            this.toolStripFolderBrowserDialogButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripFolderBrowserDialogButton.Name = "toolStripFolderBrowserDialogButton";
+            this.toolStripFolderBrowserDialogButton.Size = new System.Drawing.Size(44, 46);
+            this.toolStripFolderBrowserDialogButton.Text = "Pilih Folder Lokasi Menyimpan Hasil Scan";
+            this.toolStripFolderBrowserDialogButton.Click += new System.EventHandler(this.toolStripFolderBrowserDialogButtonClick);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 49);
+            // 
+            // dataSourcesToolStripComboBox
+            // 
+            this.dataSourcesToolStripComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.dataSourcesToolStripComboBox.Name = "dataSourcesToolStripComboBox";
+            this.dataSourcesToolStripComboBox.Size = new System.Drawing.Size(200, 49);
+            this.dataSourcesToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.dataSourcesToolStripComboBox_SelectedIndexChanged);
+            // 
+            // resolutionToolStripDropDownButton
+            // 
+            this.resolutionToolStripDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.resolutionToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("resolutionToolStripDropDownButton.Image")));
+            this.resolutionToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.resolutionToolStripDropDownButton.Name = "resolutionToolStripDropDownButton";
+            this.resolutionToolStripDropDownButton.Size = new System.Drawing.Size(137, 46);
+            this.resolutionToolStripDropDownButton.Tag = "";
+            this.resolutionToolStripDropDownButton.Text = "xxx dpi";
+            // 
+            // pixelTypesToolStripDropDownButton
+            // 
+            this.pixelTypesToolStripDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.pixelTypesToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("pixelTypesToolStripDropDownButton.Image")));
+            this.pixelTypesToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.pixelTypesToolStripDropDownButton.Name = "pixelTypesToolStripDropDownButton";
+            this.pixelTypesToolStripDropDownButton.Size = new System.Drawing.Size(100, 46);
+            this.pixelTypesToolStripDropDownButton.Text = "RGB";
+            // 
+            // xferModeToolStripDropDownButton
+            // 
+            this.xferModeToolStripDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.xferModeToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("xferModeToolStripDropDownButton.Image")));
+            this.xferModeToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.xferModeToolStripDropDownButton.Name = "xferModeToolStripDropDownButton";
+            this.xferModeToolStripDropDownButton.Size = new System.Drawing.Size(176, 46);
+            this.xferModeToolStripDropDownButton.Text = "XferMode";
+            this.xferModeToolStripDropDownButton.Click += new System.EventHandler(this.XferModeToolStripDropDownButtonClick);
+            // 
+            // fileFormatToolStripDropDownButton
+            // 
+            this.fileFormatToolStripDropDownButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.fileFormatToolStripDropDownButton.Enabled = false;
+            this.fileFormatToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("fileFormatToolStripDropDownButton.Image")));
+            this.fileFormatToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.fileFormatToolStripDropDownButton.Name = "fileFormatToolStripDropDownButton";
+            this.fileFormatToolStripDropDownButton.Size = new System.Drawing.Size(138, 46);
+            this.fileFormatToolStripDropDownButton.Text = "Format";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 60);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1664, 701);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.DefaultExt = "bmp";
+            this.saveFileDialog1.Filter = "Gambar|*.bmp";
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.SaveFileDialog1FileOk);
+            // 
+            // printDialog1
+            // 
+            this.printDialog1.Document = this.printDocument1;
+            this.printDialog1.UseEXDialog = true;
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.BackColor = System.Drawing.Color.Black;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.ForeColor = System.Drawing.Color.Lime;
+            this.textBox1.Location = new System.Drawing.Point(0, 775);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox1.Size = new System.Drawing.Size(1664, 219);
+            this.textBox1.TabIndex = 3;
+            this.textBox1.WordWrap = false;
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 1008);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(3, 0, 37, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1664, 46);
+            this.statusStrip1.TabIndex = 4;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(297, 41);
+            this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // _twain32
+            // 
+            this._twain32.AppProductName = "Saraff.Twain";
+            this._twain32.IsTwain2Enable = true;
+            this._twain32.Parent = this;
+            this._twain32.ShowUI = false;
+            this._twain32.AcquireCompleted += new System.EventHandler(this._twain32_AcquireCompleted);
+            this._twain32.AcquireError += new System.EventHandler<Saraff.Twain.Twain32.AcquireErrorEventArgs>(this._twain32_AcquireError);
+            this._twain32.EndXfer += new System.EventHandler<Saraff.Twain.Twain32.EndXferEventArgs>(this._twain32_EndXfer);
+            this._twain32.XferDone += new System.EventHandler<Saraff.Twain.Twain32.XferDoneEventArgs>(this._twain32_XferDone);
+            this._twain32.SetupMemXferEvent += new System.EventHandler<Saraff.Twain.Twain32.SetupMemXferEventArgs>(this._twain32_SetupMemXferEvent);
+            this._twain32.MemXferEvent += new System.EventHandler<Saraff.Twain.Twain32.MemXferEventArgs>(this._twain32_MemXferEvent);
+            this._twain32.SetupFileXferEvent += new System.EventHandler<Saraff.Twain.Twain32.SetupFileXferEventArgs>(this._twain32_SetupFileXferEvent);
+            this._twain32.FileXferEvent += new System.EventHandler<Saraff.Twain.Twain32.FileXferEventArgs>(this._twain32_FileXferEvent);
+            this._twain32.DeviceEvent += new System.EventHandler<Saraff.Twain.Twain32.DeviceEventEventArgs>(this._twain32_DeviceEvent);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.textBox2.Enabled = false;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(1364, 0);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(300, 189);
+            this.textBox2.TabIndex = 6;
+            this.textBox2.Text = "0";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // SmartScan
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1664, 1054);
+            this.Controls.Add(this.toolStripPanel1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.Name = "SmartScan";
+            this.Text = "AlisJK : SmartScan";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1Load);
+            this.toolStripPanel1.ResumeLayout(false);
+            this.toolStripPanel1.PerformLayout();
+            this._toolStrip1.ResumeLayout(false);
+            this._toolStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
         private System.Windows.Forms.ToolStripButton toolStripFolderBrowserDialogButton;
 
@@ -307,7 +329,9 @@ namespace com.openthinklabs.alisjk.SmartScan {
         void _toolStrip1ItemClicked(object sender, System.Windows.Forms.ToolStripItemClickedEventArgs e)
         {
         	
-        }        
+        }
+
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

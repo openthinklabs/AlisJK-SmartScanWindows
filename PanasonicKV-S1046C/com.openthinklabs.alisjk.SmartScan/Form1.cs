@@ -57,6 +57,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 		private static string target_folder = "" ;
 		private static string nama_batch    = "";		
 		private static string template      = "";
+        private int counter = 0;
 
 		public SmartScan() {
 			InitializeComponent();
@@ -409,6 +410,8 @@ namespace com.openthinklabs.alisjk.SmartScan {
                   System.IO.Directory.CreateDirectory(SmartScan.target_folder);
                 }
 				e.FileName=string.Format(SmartScan.target_folder+"/"+LoginForm.username+"_FileXferTransfer_{0}.{1}",DateTime.Now.ToString("yyyyMMddHHmmss"),this._twain32.Capabilities.ImageFileFormat.GetCurrent().ToString().ToLower());
+                counter++;
+                this.textBox2.Text = counter.ToString();
 			} catch(Exception ex) {
 				MessageBox.Show(ex.Message,ex.GetType().Name,MessageBoxButtons.OK,MessageBoxIcon.Error);
 				Debug.WriteLine(string.Format("{0}: {1}\n{2}",ex.GetType().Name,ex.Message,ex.StackTrace));

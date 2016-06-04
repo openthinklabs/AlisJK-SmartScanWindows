@@ -13,8 +13,6 @@ B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthink
 B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
 B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
 B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe.config
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
 B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe
 B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.pdb
 B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.dll
@@ -25,3 +23,5 @@ B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.al
 B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.LoginForm.resources
 B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.Properties.Resources.resources
 B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.Cache
+B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
+B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
