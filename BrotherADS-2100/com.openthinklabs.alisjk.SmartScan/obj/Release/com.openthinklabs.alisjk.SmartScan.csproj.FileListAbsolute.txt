@@ -38,3 +38,17 @@ B:\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\obj\Releas
 B:\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.Cache
 B:\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
 B:\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe.config
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.pdb
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\MySql.Data.dll
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.dll
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.dll
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.xml
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.xml
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.SmartScan.resources
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.LoginForm.resources
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.Properties.Resources.resources
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.Cache
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
+B:\openthinklabs\AlisJKSmartScan\BrotherADS-2100\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb

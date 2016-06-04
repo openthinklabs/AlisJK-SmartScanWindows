@@ -105,7 +105,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.fileFormatToolStripDropDownButton});
             this._toolStrip1.Location = new System.Drawing.Point(3, 0);
             this._toolStrip1.Name = "_toolStrip1";
-            this._toolStrip1.Size = new System.Drawing.Size(859, 49);
+            this._toolStrip1.Size = new System.Drawing.Size(937, 49);
             this._toolStrip1.TabIndex = 0;
             this._toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this._toolStrip1ItemClicked);
             // 

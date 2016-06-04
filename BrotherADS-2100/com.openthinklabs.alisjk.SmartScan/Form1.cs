@@ -233,8 +233,8 @@ namespace com.openthinklabs.alisjk.SmartScan {
                     }
                     var _file = string.Format(SmartScan.target_folder + "/" + LoginForm.username + "_FileXferTransfer_{0}.{1}", DateTime.Now.ToString("yyyyMMddHHmmss"), this._twain32.Capabilities.ImageFileFormat.GetCurrent().ToString().ToLower());
                     e.Image.Save(_file, ImageFormat.Jpeg);
-                    counter++;
-                    this.textBox2.Text = counter.ToString();
+                    this.counter++;
+                    this.textBox2.Text = this.counter.ToString();
                     System.Diagnostics.Debug.WriteLine(string.Format("Ukuran Gambar yang Diambil {0}x{1}",e.Image.Width,e.Image.Height));
                 }
             } catch(Exception ex) {
@@ -554,7 +554,8 @@ namespace com.openthinklabs.alisjk.SmartScan {
 		}
 
 		private void newToolStripButton_Click(object sender,EventArgs e) {
-			if(SmartScan.root_folder == "") {
+            this.counter = 0;
+            if (SmartScan.root_folder == "") {
 				MessageBox.Show("Silahkan pilih folder lokasi menyimpan hasil scan terlebih dahulu", "Peringatan",
 				                MessageBoxButtons.OK, MessageBoxIcon.Error);
 			} else {
