@@ -232,6 +232,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
                         System.IO.Directory.CreateDirectory(SmartScan.target_folder);
                     }
                     var _file = string.Format(SmartScan.target_folder + "/" + LoginForm.username + "_FileXferTransfer_{0}.{1}", DateTime.Now.ToString("yyyyMMddHHmmss"), this._twain32.Capabilities.ImageFileFormat.GetCurrent().ToString().ToLower());
+                    e.Image.RotateFlip(RotateFlipType.Rotate180FlipNone);
                     e.Image.Save(_file, ImageFormat.Jpeg);
                     this.counter++;
                     this.textBox2.Text = this.counter.ToString();
