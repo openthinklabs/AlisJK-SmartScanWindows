@@ -65,7 +65,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 			try {
 				
 				this._twain32.ShowUI         = false;
-				this._twain32.IsTwain2Enable = false;
+				this._twain32.IsTwain2Enable = true;
 				
 				this._twain32.OpenDSM();								                
 				#region isi dalam daftar sumber data

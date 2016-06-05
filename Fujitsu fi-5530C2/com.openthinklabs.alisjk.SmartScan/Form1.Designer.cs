@@ -105,7 +105,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.fileFormatToolStripDropDownButton});
             this._toolStrip1.Location = new System.Drawing.Point(3, 0);
             this._toolStrip1.Name = "_toolStrip1";
-            this._toolStrip1.Size = new System.Drawing.Size(937, 49);
+            this._toolStrip1.Size = new System.Drawing.Size(859, 49);
             this._toolStrip1.TabIndex = 0;
             this._toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this._toolStrip1ItemClicked);
             // 
@@ -266,6 +266,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(1364, 0);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(300, 189);
             this.textBox2.TabIndex = 6;
             this.textBox2.Text = "0";
@@ -275,6 +276,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1664, 1054);
             this.Controls.Add(this.toolStripPanel1);
             this.Controls.Add(this.textBox2);
@@ -283,6 +285,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.MinimizeBox = false;
             this.Name = "SmartScan";
             this.Text = "AlisJK : SmartScan";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
