@@ -106,7 +106,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.fileFormatToolStripDropDownButton});
             this._toolStrip1.Location = new System.Drawing.Point(3, 0);
             this._toolStrip1.Name = "_toolStrip1";
-            this._toolStrip1.Size = new System.Drawing.Size(937, 49);
+            this._toolStrip1.Size = new System.Drawing.Size(859, 49);
             this._toolStrip1.TabIndex = 0;
             this._toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this._toolStrip1ItemClicked);
             // 
@@ -187,7 +187,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.pictureBox1.Location = new System.Drawing.Point(0, 49);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1464, 656);
+            this.pictureBox1.Size = new System.Drawing.Size(1364, 656);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -264,10 +264,11 @@ namespace com.openthinklabs.alisjk.SmartScan {
             // 
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Right;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(1464, 49);
+            this.textBox2.Location = new System.Drawing.Point(1364, 49);
             this.textBox2.MinimumSize = new System.Drawing.Size(200, 100);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 113);
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(300, 113);
             this.textBox2.TabIndex = 8;
             this.textBox2.Text = "0";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
