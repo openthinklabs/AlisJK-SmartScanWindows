@@ -1,0 +1,9 @@
+B:\SOFTWARE\AlisJK\AlisJK-SmartScanWindows\Saraff.Twain.NET-master\bin\Debug\COPYING.LESSER.txt
+B:\SOFTWARE\AlisJK\AlisJK-SmartScanWindows\Saraff.Twain.NET-master\bin\Debug\Saraff.Twain.dll
+B:\SOFTWARE\AlisJK\AlisJK-SmartScanWindows\Saraff.Twain.NET-master\bin\Debug\Saraff.Twain.pdb
+B:\SOFTWARE\AlisJK\AlisJK-SmartScanWindows\Saraff.Twain.NET-master\obj\Debug\Saraff.Twain.csprojResolveAssemblyReference.cache
+B:\SOFTWARE\AlisJK\AlisJK-SmartScanWindows\Saraff.Twain.NET-master\obj\Debug\Saraff.Twain.Properties.Resources.resources
+B:\SOFTWARE\AlisJK\AlisJK-SmartScanWindows\Saraff.Twain.NET-master\obj\Debug\Saraff.Twain.Twain32.resources
+B:\SOFTWARE\AlisJK\AlisJK-SmartScanWindows\Saraff.Twain.NET-master\obj\Debug\Saraff.Twain.csproj.GenerateResource.Cache
+B:\SOFTWARE\AlisJK\AlisJK-SmartScanWindows\Saraff.Twain.NET-master\obj\Debug\Saraff.Twain.dll
+B:\SOFTWARE\AlisJK\AlisJK-SmartScanWindows\Saraff.Twain.NET-master\obj\Debug\Saraff.Twain.pdb

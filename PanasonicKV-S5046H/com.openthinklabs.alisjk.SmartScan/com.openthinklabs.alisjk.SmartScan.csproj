@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>com.openthinklabs.alisjk.SmartScan</RootNamespace>
     <AssemblyName>com.openthinklabs.alisjk.SmartScan</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NoWin32Manifest>False</NoWin32Manifest>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
@@ -88,11 +88,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data" />
-    <Reference Include="Saraff.Tiff">
-      <HintPath>..\..\Saraff.Tiff\Saraff.Tiff\Saraff.Tiff.dll</HintPath>
+    <Reference Include="Saraff.Tiff, Version=1.0.1.401, Culture=neutral, PublicKeyToken=afa8150e0eb9866c, processorArchitecture=MSIL">
+      <HintPath>packages\Saraff.Tiff.1.0.1.401\lib\net461\Saraff.Tiff.dll</HintPath>
     </Reference>
-    <Reference Include="Saraff.Twain">
-      <HintPath>..\..\Saraff.Twain_1.0.19.481\Saraff.Twain\Saraff.Twain.dll</HintPath>
+    <Reference Include="Saraff.Twain, Version=1.0.24.579, Culture=neutral, PublicKeyToken=467d7c56f22cafb6, processorArchitecture=MSIL">
+      <HintPath>packages\Saraff.Twain.1.0.24.579\lib\net40\Saraff.Twain.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -133,6 +133,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="app.config" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

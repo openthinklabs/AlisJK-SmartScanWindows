@@ -459,7 +459,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 					this._ResolutionItemSelected(this.resolutionToolStripDropDownButton.DropDownItems[_resolutions.CurrentIndex],new EventArgs());
 				} else {
 					//100f,150f,200f,300f,600f,1200f,2400f
-					foreach(var _val in new float[] { 150f }) {
+					foreach(var _val in new float[] { 300f }) {
 						for(int i=_resolutions.Count-1; i>=0; i--) {
 							if(Math.Abs((float)_resolutions[i]-_val)<50f) {
 								var _item=this.resolutionToolStripDropDownButton.DropDownItems.Add(
@@ -506,7 +506,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 				}
 				
 				//fujitsu error disini
-				///this._XferMechItemSelected(this.xferModeToolStripDropDownButton.DropDownItems[_xferMech.CurrentIndex],new EventArgs());
+				this._XferMechItemSelected(this.xferModeToolStripDropDownButton.DropDownItems[_xferMech.CurrentIndex],new EventArgs());
 
 				#endregion
 
@@ -523,7 +523,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 					}
 				}
 				//Fujitsu error
-				//this._FileFormatItemSelected(this.fileFormatToolStripDropDownButton.DropDownItems[_fileFormats.CurrentIndex],new EventArgs());
+				this._FileFormatItemSelected(this.fileFormatToolStripDropDownButton.DropDownItems[_fileFormats.CurrentIndex],new EventArgs());
 
 				#endregion
 
@@ -619,7 +619,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 						//MessageBox.Show("OK : ICAP_AUTODISCARDBLANKPAGES");
 						//ICAP_AUTODISCARDBLANKPAGES
 						if((this._twain32.IsCapSupported(TwCap.AutoDiscardBlankPages)&TwQC.Set)!=0) {
-						    this._twain32.SetCap(TwCap.AutoDiscardBlankPages,TwBP.Auto);	
+						    this._twain32.SetCap(TwCap.AutoDiscardBlankPages,TwBP.Disable);	
 						}
                         #endregion
 
