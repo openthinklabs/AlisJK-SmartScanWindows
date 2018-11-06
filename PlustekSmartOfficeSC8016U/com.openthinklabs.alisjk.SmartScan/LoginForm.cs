@@ -39,6 +39,10 @@ namespace com.openthinklabs.alisjk.SmartScan
 		{
 			try
 			{
+                this.logOnSuccessFul = true;
+                LoginForm.username = this.txt_username.Text;
+                this.Close();
+                /**
 			    string myConnection = "datasource=192.168.1.3;port=3306;username=ppmb;password=np2025";
 			    MySqlConnection myConn = new MySqlConnection(myConnection);
 			 
@@ -65,8 +69,9 @@ namespace com.openthinklabs.alisjk.SmartScan
 			        MessageBox.Show("Username and password is incorrect. Please try again.");
 			 
 			    myConn.Close();
-			}
-			catch (Exception ex)
+                **/
+            }
+            catch (Exception ex)
 			{
 			    MessageBox.Show(ex.Message);
 			}			

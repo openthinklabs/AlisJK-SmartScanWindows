@@ -38,9 +38,9 @@ namespace com.openthinklabs.alisjk.SmartScan
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
 			this.label_username = new System.Windows.Forms.Label();
-			this.label_password = new System.Windows.Forms.Label();
+			//this.label_password = new System.Windows.Forms.Label();
 			this.txt_username = new System.Windows.Forms.TextBox();
-			this.txt_password = new System.Windows.Forms.TextBox();
+			//this.txt_password = new System.Windows.Forms.TextBox();
 			this.btn_login = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
@@ -53,12 +53,14 @@ namespace com.openthinklabs.alisjk.SmartScan
 			this.label_username.Text = "Username";
 			// 
 			// label_password
-			// 
+			//
+            /**
 			this.label_password.Location = new System.Drawing.Point(49, 79);
 			this.label_password.Name = "label_password";
 			this.label_password.Size = new System.Drawing.Size(63, 23);
 			this.label_password.TabIndex = 1;
 			this.label_password.Text = "Password";
+            **/
 			// 
 			// txt_username
 			// 
@@ -69,11 +71,13 @@ namespace com.openthinklabs.alisjk.SmartScan
 			// 
 			// txt_password
 			// 
+            /**
 			this.txt_password.Location = new System.Drawing.Point(130, 79);
 			this.txt_password.Name = "txt_password";
 			this.txt_password.Size = new System.Drawing.Size(176, 20);
 			this.txt_password.TabIndex = 3;
 			this.txt_password.UseSystemPasswordChar = true;
+            **/
 			// 
 			// btn_login
 			// 
@@ -91,9 +95,9 @@ namespace com.openthinklabs.alisjk.SmartScan
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(414, 185);
 			this.Controls.Add(this.btn_login);
-			this.Controls.Add(this.txt_password);
+			//this.Controls.Add(this.txt_password);
 			this.Controls.Add(this.txt_username);
-			this.Controls.Add(this.label_password);
+			//this.Controls.Add(this.label_password);
 			this.Controls.Add(this.label_username);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "LoginForm";
@@ -102,9 +106,9 @@ namespace com.openthinklabs.alisjk.SmartScan
 			this.PerformLayout();
 		}
 		private System.Windows.Forms.Button btn_login;
-		private System.Windows.Forms.TextBox txt_password;
+		//private System.Windows.Forms.TextBox txt_password;
 		private System.Windows.Forms.TextBox txt_username;
-		private System.Windows.Forms.Label label_password;
+		//private System.Windows.Forms.Label label_password;
 		private System.Windows.Forms.Label label_username;
 	}
 }
