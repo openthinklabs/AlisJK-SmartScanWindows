@@ -20,10 +20,11 @@ namespace com.openthinklabs.alisjk.SmartScan
         static void Main() {
 		  LoginForm fLogin = new LoginForm();
 		  fLogin.ShowDialog();
-		  if(fLogin.logOnSuccessFul) {		  	
-              //Application.EnableVisualStyles();		  	
-              //Application.SetCompatibleTextRenderingDefault(false);
-              SmartScan ss = new SmartScan();
+		  if(fLogin.logOnSuccessFul)
+            {
+             //Application.EnableVisualStyles();		  	
+             //Application.SetCompatibleTextRenderingDefault(false);
+                SmartScan ss = new SmartScan();
               ss.Text   = "AlisJK : SmartScan - "+ LoginForm.username;  
 		      Application.Run(ss);
 		   }
