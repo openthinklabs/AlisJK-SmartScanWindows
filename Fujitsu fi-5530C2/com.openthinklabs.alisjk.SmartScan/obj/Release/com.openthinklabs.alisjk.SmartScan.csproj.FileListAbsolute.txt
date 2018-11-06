@@ -68,3 +68,19 @@ B:\AlisJKSmartScan\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Rele
 B:\AlisJKSmartScan\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.Cache
 B:\AlisJKSmartScan\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
 B:\AlisJKSmartScan\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe.config
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.pdb
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.dll
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.dll
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.xml
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.xml
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csprojAssemblyReference.cache
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.SmartScan.resources
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.LoginForm.resources
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.Properties.Resources.resources
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.cache
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.CoreCompileInputs.cache
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.CopyComplete
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
+C:\Users\Some One\Documents\AlisJK-SmartScanWindows\Fujitsu fi-5530C2\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
