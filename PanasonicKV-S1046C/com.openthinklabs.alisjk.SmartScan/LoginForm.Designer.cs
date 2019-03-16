@@ -54,6 +54,13 @@ namespace com.openthinklabs.alisjk.SmartScan
 			// 
 			// label_password
 			// 
+<<<<<<< HEAD
+			//this.label_password.Location = new System.Drawing.Point(49, 79);
+			//this.label_password.Name = "label_password";
+			//this.label_password.Size = new System.Drawing.Size(63, 23);
+			//this.label_password.TabIndex = 1;
+			//this.label_password.Text = "Password";
+=======
             /**
 			this.label_password.Location = new System.Drawing.Point(49, 79);
 			this.label_password.Name = "label_password";
@@ -61,6 +68,7 @@ namespace com.openthinklabs.alisjk.SmartScan
 			this.label_password.TabIndex = 1;
 			this.label_password.Text = "Password";
             **/
+>>>>>>> c63593451548b896f34f76d464a3b5da7b864979
 			// 
 			// txt_username
 			// 
@@ -71,6 +79,13 @@ namespace com.openthinklabs.alisjk.SmartScan
 			// 
 			// txt_password
 			// 
+<<<<<<< HEAD
+			//this.txt_password.Location = new System.Drawing.Point(130, 79);
+			//this.txt_password.Name = "txt_password";
+			//this.txt_password.Size = new System.Drawing.Size(176, 20);
+			//this.txt_password.TabIndex = 3;
+			//this.txt_password.UseSystemPasswordChar = true;
+=======
             /**
 			this.txt_password.Location = new System.Drawing.Point(130, 79);
 			this.txt_password.Name = "txt_password";
@@ -78,6 +93,7 @@ namespace com.openthinklabs.alisjk.SmartScan
 			this.txt_password.TabIndex = 3;
 			this.txt_password.UseSystemPasswordChar = true;
             **/
+>>>>>>> c63593451548b896f34f76d464a3b5da7b864979
 			// 
 			// btn_login
 			// 

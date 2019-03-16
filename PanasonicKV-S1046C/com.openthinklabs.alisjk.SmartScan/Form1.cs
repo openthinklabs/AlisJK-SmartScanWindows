@@ -57,7 +57,8 @@ namespace com.openthinklabs.alisjk.SmartScan {
 		private static string target_folder = "" ;
 		private static string nama_batch    = "";		
 		private static string template      = "";
-        private int counter = 0;
+        private int counter                 = 0;
+        private bool is_lju_esai            = false; 
 
 		public SmartScan() {
 			InitializeComponent();
@@ -404,11 +405,17 @@ namespace com.openthinklabs.alisjk.SmartScan {
 
 		private void _twain32_SetupFileXferEvent(object sender,Twain32.SetupFileXferEventArgs e) {
 			try {	
-                SmartScan.target_folder = SmartScan.root_folder+"/"+SmartScan.nama_batch+"/"+SmartScan.template+"/";
+                if(this.is_lju_esai)
+                {
+                    SmartScan.target_folder = SmartScan.root_folder + "/" + SmartScan.nama_batch + "/" + SmartScan.template + "/" + string.Format("{0}{1}", DateTime.Now.ToString("yyyyMMddHHmmss"), LoginForm.username);
+                } else
+                {
+                    SmartScan.target_folder = SmartScan.root_folder + "/" + SmartScan.nama_batch + "/" + SmartScan.template + "/";
+                }
                 if(!System.IO.Directory.Exists(SmartScan.target_folder)) {
                   System.IO.Directory.CreateDirectory(SmartScan.target_folder);
                 }
-				e.FileName=string.Format(SmartScan.target_folder+"/"+LoginForm.username+"_FileXferTransfer_{0}.{1}",DateTime.Now.ToString("yyyyMMddHHmmss"),this._twain32.Capabilities.ImageFileFormat.GetCurrent().ToString().ToLower());
+				e.FileName=string.Format(SmartScan.target_folder+"/"+LoginForm.username+"_"+this.counter+"_FileXferTransfer_{0}.{1}",DateTime.Now.ToString("yyyyMMddHHmmss"),this._twain32.Capabilities.ImageFileFormat.GetCurrent().ToString().ToLower());
                 this.counter++;
                 this.textBox2.Text = this.counter.ToString();
 			} catch(Exception ex) {
@@ -543,8 +550,12 @@ namespace com.openthinklabs.alisjk.SmartScan {
 			}
 		}
 
+        /**
+         * Form LJK MCQ
+         */ 
 		private void newToolStripButton_Click(object sender,EventArgs e) {
-            this.counter = 0;
+            this.counter     = 0;
+            this.is_lju_esai = false;
             if (SmartScan.root_folder == "") {
 				MessageBox.Show("Silahkan pilih folder lokasi menyimpan hasil scan terlebih dahulu", "Peringatan",
 				                MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -586,7 +597,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 									}
 									
 									if((this._twain32.IsCapSupported(TwCap.DuplexEnabled)&TwQC.Set)!=0) {
-									    this._twain32.SetCap(TwCap.DuplexEnabled,false);
+									    this._twain32.SetCap(TwCap.DuplexEnabled,true);
 									}									
 									
 									if((this._twain32.IsCapSupported(TwCap.AutomaticRotate)&TwQC.Set)!=0) {
@@ -747,9 +758,118 @@ namespace com.openthinklabs.alisjk.SmartScan {
 		{
 			
 		}
-	}
 
-	internal enum TwDX:ushort {
+        /**
+         * Scan Essai
+         */ 
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            this.counter     = 0;
+            this.is_lju_esai = true;
+            if (SmartScan.root_folder == "")
+            {
+                MessageBox.Show("Silahkan pilih folder lokasi menyimpan hasil scan LJK Essai terlebih dahulu", "Peringatan",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                InputBoxValidation validation = delegate (string val) {
+                    if (val == "")
+                        return "Nama Batch harus diisi.";
+                    return "";
+                };
+
+                /**
+				 * Debug : get capabilites 
+				 **/
+                /**
+                   System.Diagnostics.Debug.WriteLine("SUPPORTED CAPS:");
+                   foreach(TwCap _cap in this._twain32.GetCap(TwCap.SupportedCaps) as object[]) {
+                       System.Diagnostics.Debug.WriteLine(string.Format("{0}: {1}",_cap,this._twain32.IsCapSupported(_cap)));
+                   }				
+               **/
+
+                string value = "";
+                if (InputBox.ShowEssai("Silahkan masukkan nama Batch", "Nama Batch", ref value, validation) == DialogResult.OK)
+                {
+                    string nama_batch = value;
+                    SmartScan.nama_batch = nama_batch;
+
+                    try
+                    {
+                        #region Examples of the capabilities
+
+                        //Feeder
+                        if ((this._twain32.IsCapSupported(TwCap.Duplex) & TwQC.Get) != 0)
+                        {
+                            var _duplexCapValue = (TwDX)this._twain32.GetCap(TwCap.Duplex);
+                            if (_duplexCapValue != TwDX.None)
+                            {
+                                if ((this._twain32.IsCapSupported(TwCap.FeederEnabled) & TwQC.Set) != 0)
+                                {
+                                    this._twain32.SetCap(TwCap.FeederEnabled, true);
+
+                                    //if ((this._twain32.IsCapSupported(TwCap.XferCount) & TwQC.Set) != 0)
+                                    //{
+                                        this._twain32.SetCap(TwCap.XferCount, (short)-1);
+                                    //}
+
+                                    //if ((this._twain32.IsCapSupported(TwCap.DuplexEnabled) & TwQC.Set) != 0)
+                                    //{
+                                        this._twain32.SetCap(TwCap.DuplexEnabled, true);
+                                    //}
+
+                                    if ((this._twain32.IsCapSupported(TwCap.AutomaticRotate) & TwQC.Set) != 0)
+                                    {
+                                        this._twain32.SetCap(TwCap.AutomaticRotate, false);
+                                    }
+
+                                    if ((this._twain32.IsCapSupported(TwCap.Rotation) & TwQC.Set) != 0)
+                                    {
+                                        this._twain32.SetCap(TwCap.Rotation, 180f); //jika di set selain 0, error
+                                    }
+                                    if ((this._twain32.IsCapSupported(TwCap.FlipRotation) & TwQC.Set) != 0)
+                                    {
+                                        this._twain32.SetCap(TwCap.FlipRotation, false);
+                                    }
+                                }
+                            }
+                        }
+
+                        //MessageBox.Show("OK : Brightness");
+                        //Brightness
+                        if ((this._twain32.IsCapSupported(TwCap.Brightness) & TwQC.Set) != 0)
+                        {
+                            this._twain32.SetCap(TwCap.Brightness, 0f); //Allowed Values: -1000f to +1000f; Default Value: 0f;
+                        }
+
+                        //MessageBox.Show("OK : Contrast");
+                        //Contrast
+                        if ((this._twain32.IsCapSupported(TwCap.Contrast) & TwQC.Set) != 0)
+                        {
+                            this._twain32.SetCap(TwCap.Contrast, 0f); //Allowed Values: -1000f to +1000f; Default Value: 0f;
+                        }
+
+                        //MessageBox.Show("OK : ICAP_AUTODISCARDBLANKPAGES");
+                        //ICAP_AUTODISCARDBLANKPAGES
+                        if ((this._twain32.IsCapSupported(TwCap.AutoDiscardBlankPages) & TwQC.Set) != 0)
+                        {
+                            this._twain32.SetCap(TwCap.AutoDiscardBlankPages, TwBP.Auto);
+                        }
+                        #endregion
+
+                        this._twain32.Acquire();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message, ex.GetType().Name, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
+    }
+
+    internal enum TwDX:ushort {
 		None=0,          // TWDX_NONE
 		OnePassDuplex=1, // TWDX_1PASSDUPLEX
 		TwoPassDuplex=2  // TWDX_2PASSDUPLEX

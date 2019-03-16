@@ -39,9 +39,13 @@ namespace com.openthinklabs.alisjk.SmartScan
 		{
 			try
 			{
+<<<<<<< HEAD
+                int count = 1;
+=======
                 this.logOnSuccessFul = true;
                 LoginForm.username = this.txt_username.Text;
                 this.Close();
+>>>>>>> c63593451548b896f34f76d464a3b5da7b864979
                 /**
 			    string myConnection = "datasource=192.168.1.3;port=3306;username=alisjk;password=rahasia";
 			    MySqlConnection myConn = new MySqlConnection(myConnection);
@@ -58,7 +62,7 @@ namespace com.openthinklabs.alisjk.SmartScan
 			          count = count + 1;
 			    	}
 			    }
-			 
+			    **/
 			    if (count == 1){
 			    	this.logOnSuccessFul = true;
                     LoginForm.username = this.txt_username.Text ;			    	
@@ -68,9 +72,14 @@ namespace com.openthinklabs.alisjk.SmartScan
 			    else
 			        MessageBox.Show("Username and password is incorrect. Please try again.");
 			 
+<<<<<<< HEAD
+			    //myConn.Close();
+			}
+=======
 			    myConn.Close();
                 **/
             }
+>>>>>>> c63593451548b896f34f76d464a3b5da7b864979
 			catch (Exception ex)
 			{
 			    MessageBox.Show(ex.Message);
