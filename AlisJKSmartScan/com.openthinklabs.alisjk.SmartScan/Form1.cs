@@ -58,6 +58,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 		private static string nama_batch    = "";		
 		private static string template      = "";
         private int counter                 = 0;
+        private int group_lju = 1;
         private bool is_lju_esai            = false; 
 
 		public SmartScan() {
@@ -404,10 +405,14 @@ namespace com.openthinklabs.alisjk.SmartScan {
 		}
 
 		private void _twain32_SetupFileXferEvent(object sender,Twain32.SetupFileXferEventArgs e) {
+            if(this.counter%2 == 0)
+            {
+               this.group_lju = this.counter;
+            } 
 			try {	
                 if(this.is_lju_esai)
                 {
-                    SmartScan.target_folder = SmartScan.root_folder + "/" + SmartScan.nama_batch + "/" + SmartScan.template + "/" + string.Format("{0}{1}", DateTime.Now.ToString("yyyyMMddHHmmss"), LoginForm.username);
+                    SmartScan.target_folder = SmartScan.root_folder + "/" + SmartScan.nama_batch + "/" + string.Format("{0}{1}{2}", DateTime.Now.ToString("yyyyMMddHHmm"), this.group_lju, LoginForm.username);
                 } else
                 {
                     SmartScan.target_folder = SmartScan.root_folder + "/" + SmartScan.nama_batch + "/" + SmartScan.template + "/";
@@ -596,7 +601,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 										this._twain32.SetCap(TwCap.XferCount,(short)-1);
 									}
 									
-									if((this._twain32.IsCapSupported(TwCap.DuplexEnabled)&TwQC.Set)!=0) {
+									if((this._twain32.IsCapSupported(TwCap.DuplexEnabled)&TwQC.Set)!=0 && !this.is_lju_esai) {
 									    this._twain32.SetCap(TwCap.DuplexEnabled,true);
 									}									
 									

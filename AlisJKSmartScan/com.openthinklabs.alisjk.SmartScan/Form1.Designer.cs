@@ -159,7 +159,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.resolutionToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("resolutionToolStripDropDownButton.Image")));
             this.resolutionToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.resolutionToolStripDropDownButton.Name = "resolutionToolStripDropDownButton";
-            this.resolutionToolStripDropDownButton.Size = new System.Drawing.Size(55, 19);
+            this.resolutionToolStripDropDownButton.Size = new System.Drawing.Size(55, 44);
             this.resolutionToolStripDropDownButton.Tag = "";
             this.resolutionToolStripDropDownButton.Text = "xxx dpi";
             // 
@@ -169,7 +169,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.pixelTypesToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("pixelTypesToolStripDropDownButton.Image")));
             this.pixelTypesToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.pixelTypesToolStripDropDownButton.Name = "pixelTypesToolStripDropDownButton";
-            this.pixelTypesToolStripDropDownButton.Size = new System.Drawing.Size(42, 19);
+            this.pixelTypesToolStripDropDownButton.Size = new System.Drawing.Size(42, 44);
             this.pixelTypesToolStripDropDownButton.Text = "RGB";
             // 
             // xferModeToolStripDropDownButton
@@ -178,7 +178,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.xferModeToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("xferModeToolStripDropDownButton.Image")));
             this.xferModeToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.xferModeToolStripDropDownButton.Name = "xferModeToolStripDropDownButton";
-            this.xferModeToolStripDropDownButton.Size = new System.Drawing.Size(72, 19);
+            this.xferModeToolStripDropDownButton.Size = new System.Drawing.Size(72, 44);
             this.xferModeToolStripDropDownButton.Text = "XferMode";
             this.xferModeToolStripDropDownButton.Click += new System.EventHandler(this.XferModeToolStripDropDownButtonClick);
             // 
@@ -189,7 +189,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.fileFormatToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("fileFormatToolStripDropDownButton.Image")));
             this.fileFormatToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.fileFormatToolStripDropDownButton.Name = "fileFormatToolStripDropDownButton";
-            this.fileFormatToolStripDropDownButton.Size = new System.Drawing.Size(58, 19);
+            this.fileFormatToolStripDropDownButton.Size = new System.Drawing.Size(58, 44);
             this.fileFormatToolStripDropDownButton.Text = "Format";
             // 
             // pictureBox1
