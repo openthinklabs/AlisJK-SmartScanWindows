@@ -37,53 +37,34 @@ namespace com.openthinklabs.alisjk.SmartScan
 				
 		void Btn_loginClick(object sender, EventArgs e)
 		{
-			try
-			{
-<<<<<<< HEAD
-                int count = 1;
-=======
+            try
+            {
+                //int count = 1;
                 this.logOnSuccessFul = true;
                 LoginForm.username = this.txt_username.Text;
                 this.Close();
->>>>>>> c63593451548b896f34f76d464a3b5da7b864979
-                /**
-			    string myConnection = "datasource=192.168.1.3;port=3306;username=alisjk;password=rahasia";
-			    MySqlConnection myConn = new MySqlConnection(myConnection);
-			 
-			    MySqlCommand SelectCommand = new MySqlCommand("SELECT username, salt, password FROM 20150412pascaganjil.sf_guard_user WHERE username='" + this.txt_username.Text +"' ;", myConn);
-			 
-			    MySqlDataReader myReader;
-			    myConn.Open();
-			    myReader = SelectCommand.ExecuteReader();
-			    int count = 0;
-			    while (myReader.Read()) {
-			    	string password = this.CreateSHA1(myReader.GetString(1)+this.txt_password.Text).ToLower();
-			    	if(password == myReader.GetString(2)) {
-			          count = count + 1;
-			    	}
-			    }
-			    **/
-			    if (count == 1){
-			    	this.logOnSuccessFul = true;
-                    LoginForm.username = this.txt_username.Text ;			    	
-			        this.Close();
-			    } else if (count > 1)
-			        MessageBox.Show("Duplicate username and password. Access is denied.");
-			    else
-			        MessageBox.Show("Username and password is incorrect. Please try again.");
-			 
-<<<<<<< HEAD
-			    //myConn.Close();
-			}
-=======
-			    myConn.Close();
-                **/
             }
->>>>>>> c63593451548b896f34f76d464a3b5da7b864979
-			catch (Exception ex)
-			{
-			    MessageBox.Show(ex.Message);
-			}			
+            /**
+            string myConnection = "datasource=192.168.1.3;port=3306;username=alisjk;password=rahasia";
+            MySqlConnection myConn = new MySqlConnection(myConnection);
+         
+            MySqlCommand SelectCommand = new MySqlCommand("SELECT username, salt, password FROM 20150412pascaganjil.sf_guard_user WHERE username='" + this.txt_username.Text +"' ;", myConn);
+         
+            MySqlDataReader myReader;
+            myConn.Open();
+            myReader = SelectCommand.ExecuteReader();
+            int count = 0;
+            while (myReader.Read()) {
+                string password = this.CreateSHA1(myReader.GetString(1)+this.txt_password.Text).ToLower();
+                if(password == myReader.GetString(2)) {
+                  count = count + 1;
+                }
+            }
+            **/
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }			
 		}
 		
 	   /**
