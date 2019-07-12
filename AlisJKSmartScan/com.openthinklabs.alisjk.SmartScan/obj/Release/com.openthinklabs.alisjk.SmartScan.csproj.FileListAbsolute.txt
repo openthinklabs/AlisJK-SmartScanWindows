@@ -1,94 +1,17 @@
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.SmartScan.resources
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.LoginForm.resources
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.Properties.Resources.resources
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.Cache
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe.config
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.pdb
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\MySql.Data.dll
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.dll
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.dll
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.xml
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.xml
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
-B:\openthinklabs\AlisJK-SmartScanWindows\PlustekSmartOfficeSC8016U\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe.config
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.pdb
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.dll
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.dll
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.xml
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.xml
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.SmartScan.resources
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.LoginForm.resources
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.Properties.Resources.resources
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.Cache
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
-B:\openthinklabs\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe.config
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.pdb
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\MySql.Data.dll
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.dll
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.dll
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.xml
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.xml
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.SmartScan.resources
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.LoginForm.resources
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.Properties.Resources.resources
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.Cache
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
-B:\openthinklabs\AlisJKSmartScan\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
-<<<<<<< HEAD
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe.config
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.pdb
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.dll
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.dll
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.xml
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.xml
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csprojAssemblyReference.cache
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.SmartScan.resources
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.LoginForm.resources
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.Properties.Resources.resources
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.cache
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.CoreCompileInputs.cache
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.CopyComplete
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
-B:\SOFTWARE\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
-=======
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe.config
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.pdb
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.dll
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.dll
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.xml
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.xml
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csprojAssemblyReference.cache
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.SmartScan.resources
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.LoginForm.resources
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.Properties.Resources.resources
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.cache
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.CoreCompileInputs.cache
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.CopyComplete
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
-C:\Users\Some One\Documents\AlisJK-SmartScanWindows\PanasonicKV-S1046C\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
->>>>>>> c63593451548b896f34f76d464a3b5da7b864979
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csprojAssemblyReference.cache
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.SmartScan.resources
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.LoginForm.resources
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.Properties.Resources.resources
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.cache
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.CoreCompileInputs.cache
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe.config
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.pdb
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\MySql.Data.dll
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.dll
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.dll
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\MySql.Data.xml
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.xml
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.xml
-D:\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.CopyComplete
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe.config
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.exe
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.pdb
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.dll
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.dll
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\MySql.Data.xml
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.xml
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.xml
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csprojAssemblyReference.cache
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.SmartScan.resources
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.LoginForm.resources
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.Properties.Resources.resources
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.GenerateResource.cache
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.CoreCompileInputs.cache
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csproj.CopyComplete
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.exe
+B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.pdb
