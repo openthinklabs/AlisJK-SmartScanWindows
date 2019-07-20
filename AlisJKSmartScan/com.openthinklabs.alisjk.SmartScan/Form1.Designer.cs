@@ -89,7 +89,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.toolStripPanel1.Name = "toolStripPanel1";
             this.toolStripPanel1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             this.toolStripPanel1.RowMargin = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.toolStripPanel1.Size = new System.Drawing.Size(399, 47);
+            this.toolStripPanel1.Size = new System.Drawing.Size(601, 49);
             // 
             // _toolStrip1
             // 
@@ -107,7 +107,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.fileFormatToolStripDropDownButton});
             this._toolStrip1.Location = new System.Drawing.Point(3, 0);
             this._toolStrip1.Name = "_toolStrip1";
-            this._toolStrip1.Size = new System.Drawing.Size(396, 47);
+            this._toolStrip1.Size = new System.Drawing.Size(598, 49);
             this._toolStrip1.TabIndex = 0;
             this._toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this._toolStrip1ItemClicked);
             // 
@@ -144,13 +144,13 @@ namespace com.openthinklabs.alisjk.SmartScan {
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 47);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 49);
             // 
             // dataSourcesToolStripComboBox
             // 
             this.dataSourcesToolStripComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.dataSourcesToolStripComboBox.Name = "dataSourcesToolStripComboBox";
-            this.dataSourcesToolStripComboBox.Size = new System.Drawing.Size(200, 47);
+            this.dataSourcesToolStripComboBox.Size = new System.Drawing.Size(200, 49);
             this.dataSourcesToolStripComboBox.SelectedIndexChanged += new System.EventHandler(this.dataSourcesToolStripComboBox_SelectedIndexChanged);
             // 
             // resolutionToolStripDropDownButton
@@ -159,7 +159,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.resolutionToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("resolutionToolStripDropDownButton.Image")));
             this.resolutionToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.resolutionToolStripDropDownButton.Name = "resolutionToolStripDropDownButton";
-            this.resolutionToolStripDropDownButton.Size = new System.Drawing.Size(55, 44);
+            this.resolutionToolStripDropDownButton.Size = new System.Drawing.Size(85, 44);
             this.resolutionToolStripDropDownButton.Tag = "";
             this.resolutionToolStripDropDownButton.Text = "xxx dpi";
             // 
@@ -169,7 +169,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.pixelTypesToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("pixelTypesToolStripDropDownButton.Image")));
             this.pixelTypesToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.pixelTypesToolStripDropDownButton.Name = "pixelTypesToolStripDropDownButton";
-            this.pixelTypesToolStripDropDownButton.Size = new System.Drawing.Size(42, 44);
+            this.pixelTypesToolStripDropDownButton.Size = new System.Drawing.Size(63, 44);
             this.pixelTypesToolStripDropDownButton.Text = "RGB";
             // 
             // xferModeToolStripDropDownButton
@@ -178,7 +178,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.xferModeToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("xferModeToolStripDropDownButton.Image")));
             this.xferModeToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.xferModeToolStripDropDownButton.Name = "xferModeToolStripDropDownButton";
-            this.xferModeToolStripDropDownButton.Size = new System.Drawing.Size(72, 44);
+            this.xferModeToolStripDropDownButton.Size = new System.Drawing.Size(109, 44);
             this.xferModeToolStripDropDownButton.Text = "XferMode";
             this.xferModeToolStripDropDownButton.Click += new System.EventHandler(this.XferModeToolStripDropDownButtonClick);
             // 
@@ -189,7 +189,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.fileFormatToolStripDropDownButton.Image = ((System.Drawing.Image)(resources.GetObject("fileFormatToolStripDropDownButton.Image")));
             this.fileFormatToolStripDropDownButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.fileFormatToolStripDropDownButton.Name = "fileFormatToolStripDropDownButton";
-            this.fileFormatToolStripDropDownButton.Size = new System.Drawing.Size(58, 44);
+            this.fileFormatToolStripDropDownButton.Size = new System.Drawing.Size(87, 44);
             this.fileFormatToolStripDropDownButton.Text = "Format";
             // 
             // pictureBox1
@@ -197,9 +197,10 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 25);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 38);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(624, 294);
+            this.pictureBox1.Size = new System.Drawing.Size(936, 452);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -226,12 +227,13 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.textBox1.BackColor = System.Drawing.Color.Black;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.ForeColor = System.Drawing.Color.Lime;
-            this.textBox1.Location = new System.Drawing.Point(0, 325);
+            this.textBox1.Location = new System.Drawing.Point(0, 500);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(624, 92);
+            this.textBox1.Size = new System.Drawing.Size(936, 142);
             this.textBox1.TabIndex = 3;
             this.textBox1.WordWrap = false;
             // 
@@ -240,16 +242,17 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 292);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 451);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(514, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 21, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(771, 32);
             this.statusStrip1.TabIndex = 4;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(118, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(179, 25);
             this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -274,25 +277,26 @@ namespace com.openthinklabs.alisjk.SmartScan {
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Right;
             this.textBox2.Enabled = false;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(399, 0);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(1);
+            this.textBox2.Location = new System.Drawing.Point(601, 0);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(115, 80);
+            this.textBox2.Size = new System.Drawing.Size(170, 116);
             this.textBox2.TabIndex = 6;
             this.textBox2.Text = "0";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // SmartScan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(514, 314);
+            this.ClientSize = new System.Drawing.Size(771, 483);
             this.Controls.Add(this.toolStripPanel1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "SmartScan";
             this.Text = "AlisJK : SmartScan";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

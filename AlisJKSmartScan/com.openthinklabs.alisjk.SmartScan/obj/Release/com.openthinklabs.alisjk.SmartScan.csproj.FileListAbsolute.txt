@@ -3,10 +3,8 @@ B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.Smart
 B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\com.openthinklabs.alisjk.SmartScan.pdb
 B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.dll
 B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.dll
-B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\MySql.Data.xml
 B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Tiff.xml
 B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\bin\Release\x86\Saraff.Twain.xml
-B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.csprojAssemblyReference.cache
 B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.SmartScan.resources
 B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.LoginForm.resources
 B:\AlisJK\AlisJK-SmartScanWindows\AlisJKSmartScan\com.openthinklabs.alisjk.SmartScan\obj\Release\com.openthinklabs.alisjk.SmartScan.Properties.Resources.resources

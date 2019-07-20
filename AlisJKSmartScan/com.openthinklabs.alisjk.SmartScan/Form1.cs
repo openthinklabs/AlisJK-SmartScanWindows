@@ -67,7 +67,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 			try {
 				
 				this._twain32.ShowUI         = false;
-				this._twain32.IsTwain2Enable = false;
+				this._twain32.IsTwain2Enable = true;
 				this._twain32.OpenDSM();								                
 				#region isi dalam daftar sumber data
 
@@ -602,7 +602,7 @@ namespace com.openthinklabs.alisjk.SmartScan {
 									}
 									
 									if((this._twain32.IsCapSupported(TwCap.DuplexEnabled)&TwQC.Set)!=0 && !this.is_lju_esai) {
-									    this._twain32.SetCap(TwCap.DuplexEnabled,true);
+									    this._twain32.SetCap(TwCap.DuplexEnabled,false);
 									}									
 									
 									if((this._twain32.IsCapSupported(TwCap.AutomaticRotate)&TwQC.Set)!=0) {
